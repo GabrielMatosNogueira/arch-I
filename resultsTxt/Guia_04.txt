@@ -324,19 +324,102 @@ X Y W Z | F(X,Y,W,Z)
 
 __________________________________________________________________________________________________________________________________________________________________
 
-05. a)
-Soma dos Produtos (SoP - Linhas com saida '1') -> n2
-onde x=1 e y=0
-x . y' = 1
+5.
+a)
+SoP (Soma dos Produtos): Linhas com saída '1'
+PoS (Produto das Somas): Linhas com saída '0'
 
-Produto das Somas ((PoS) - Linhas com saida '0') -> n0, n1 e n3
-n1 -> x=0 e y=0  | x + y  = 0  -> x+y
-n2 -> x=0 e y=1  | x + y  = 0  -> x+y'
-n3 -> x=1 e y=1  | x + y  = 0  -> x'+y' ou (x+y)'
+SoP -> n2
+
+n2: x=1, y=0 → x . y'
+
+PoS -> x . y'
+
+PoS -> n0, n1, n3
+
+n0: x=0, y=0 -> x' + y'
+n1: x=0, y=1 -> x' + y
+n3: x=1, y=1 -> x + y
+
+PoS = (x' + y') . (x' + y) . (x + y)
 
 b)
 SoP -> n1, n3
-n1 -> x=0 e y=0 | x.y = 1 -> x'.y ou x.y'
 
+n1: x=0, y=1 -> x' . y
+n3: x=1, y=1 -> x . y
+
+SoP = x' . y + x . y
 
 PoS -> n0, n2
+
+n0: x=0, y=0 -> x' + y'
+n2: x=1, y=0 -> x + y'
+
+PoS = (x' + y') . (x + y')
+
+
+c)
+SoP -> n0, n1, n3, n4, n6, n7
+
+n0: x=0, y=0, z=0 -> x' . y' . z'
+n1: x=0, y=0, z=1 -> x' . y' . z
+n3: x=0, y=1, z=1 -> x' . y . z
+n4: x=1, y=0, z=0 -> x . y' . z'
+n6: x=1, y=1, z=0 -> x . y . z'
+n7: x=1, y=1, z=1 -> x . y . z
+
+SoP = x' y' z' + x' y' z + x' y z + x y' z' + x y z' + x y z
+
+PoS -> n2, n5
+
+n2: x=0, y=1, z=0 -> x' + y' + z
+n5: x=1, y=0, z=1 -> x + y + z'
+
+PoS = (x' + y' + z) . (x + y + z')
+
+d) 
+SoP -> n0, n2, n4, n5, n6
+
+n0: x=0, y=0, z=0 -> x' . y' . z'
+n2: x=0, y=1, z=0 -> x' . y . z'
+n4: x=1, y=0, z=0 -> x . y' . z'
+n5: x=1, y=0, z=1 -> x . y' . z
+n6: x=1, y=1, z=0 -> x . y . z'
+
+SoP = x' y' z' + x' y z' + x y' z' + x y' z + x y z'
+
+PoS -> n1, n3, n7
+
+n1: x=0, y=0, z=1 -> x' + y' + z'
+n3: x=0, y=1, z=1 -> x' + y + z'
+n7: x=1, y=1, z=1 -> x + y + z
+
+PoS = (x' + y' + z') . (x' + y + z') . (x + y + z)
+
+e)
+SoP -> n0, n1, n3, n5, n6, n8, n10, n11, n14, n15
+
+n0:  x=0, y=0, w=0, z=0  -> x' . y' . w' . z'
+n1:  x=0, y=0, w=0, z=1  -> x' . y' . w' . z
+n3:  x=0, y=0, w=1, z=1  -> x' . y' . w . z
+n5:  x=0, y=1, w=0, z=1  -> x' . y . w' . z
+n6:  x=0, y=1, w=1, z=0  -> x' . y . w . z'
+n8:  x=1, y=0, w=0, z=0  -> x . y' . w' . z'
+n10: x=1, y=0, w=1, z=0  -> x . y' . w . z'
+n11: x=1, y=0, w=1, z=1  -> x . y' . w . z
+n14: x=1, y=1, w=1, z=0  -> x . y . w . z'
+n15: x=1, y=1, w=1, z=1  -> x . y . w . z
+
+SoP = x'y'w'z' + x'y'w'z + x'y'wz + x'yw'z + x'ywz' + xy'w'z' + xy'wz' + xy'wz + xywz' + xywz
+
+PoS -> n2, n4, n7, n9, n12, n13
+
+n2:  x=0, y=0, w=1, z=0  -> x' + y' + w + z'
+n4:  x=0, y=1, w=0, z=0  -> x' + y + w' + z'
+n7:  x=0, y=1, w=1, z=1  -> x' + y + w + z
+n9:  x=1, y=0, w=0, z=1  -> x + y' + w' + z
+n12: x=1, y=1, w=0, z=0  -> x + y + w' + z'
+n13: x=1, y=1, w=0, z=1  -> x + y + w' + z
+
+PoS = (x' + y' + w + z') . (x' + y + w' + z') . (x' + y + w + z) . (x + y' + w' + z) . (x + y + w' + z') . (x + y + w' + z)
