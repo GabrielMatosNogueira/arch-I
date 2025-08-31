@@ -1,22 +1,35 @@
-// Entradas  Passo 2  Passo 3 Passo 4   Passo 5: Resultado Final
-// x            y       z       y'      y' + z
-// F            F       F       V       V
-// F            F       V       V       V
-// F            V       F       F       F
-// F            V       V       F       V
-// V            F       F       V       V
-// V            F       V       V       V
-// V            V       F       F       F
-// V            V       V       F       V
-//
-module expressao_simplificada 
-( 
+/*
+ * Guia_0401.v
+ * Implementação das expressões lógicas do exercício 01 (a-e)
+ * Entradas: x, y, z
+ * Saídas: s_a, s_b, s_c, s_d, s_e
+ */
+
+module Guia_0401 
+(
   input  wire x,
   input  wire y,
   input  wire z,
-  output wire F
+  output wire s_a,
+  output wire s_b,
+  output wire s_c,
+  output wire s_d,
+  output wire s_e
 );
 
-  // Versão simplificada da expressão: x . y . z'
-  assign F = x & y & ~z;
+// a) s_a = x & ~(~y | z)
+assign s_a = x & ~(~y | z);
 
+// b) s_b = ~(x | ~y) & ~z
+assign s_b = ~(x | ~y) & ~z;
+
+// c) s_c = ~(~x & y) & z
+assign s_c = ~(~x & y) & z;
+
+// d) s_d = ~(~x & ~y) & ~z
+assign s_d = ~(~x & ~y) & ~z;
+
+// e) s_e = (~x | y) & ~(~y | ~z)
+assign s_e = (~x | y) & ~(~y | ~z);
+
+endmodule
