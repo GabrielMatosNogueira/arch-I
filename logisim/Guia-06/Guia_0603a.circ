@@ -86,7 +86,9 @@
     <wire from="(200,70)" to="(210,70)"/>
     <wire from="(210,70)" to="(210,80)"/>
     <wire from="(90,110)" to="(230,110)"/>
+    <wire from="(230,110)" to="(230,120)"/>
     <wire from="(90,100)" to="(90,110)"/>
+    <wire from="(170,130)" to="(230,130)"/>
     <wire from="(170,100)" to="(170,130)"/>
     <wire from="(190,150)" to="(230,150)"/>
     <wire from="(190,70)" to="(190,150)"/>
@@ -106,111 +108,304 @@
     <wire from="(150,70)" to="(150,270)"/>
     <wire from="(210,290)" to="(230,290)"/>
     <wire from="(210,100)" to="(210,290)"/>
-    <wire from="(70,310)" to="(230,310)"/>
-    <wire from="(70,70)" to="(70,310)"/>
     <wire from="(130,330)" to="(230,330)"/>
     <wire from="(130,250)" to="(130,330)"/>
-    <wire from="(70,350)" to="(230,350)"/>
-    <wire from="(70,310)" to="(70,350)"/>
-    <wire from="(130,370)" to="(230,370)"/>
-    <wire from="(130,330)" to="(130,370)"/>
-    <wire from="(130,370)" to="(130,510)"/>
-    <wire from="(170,390)" to="(230,390)"/>
-    <wire from="(170,190)" to="(170,390)"/>
-    <wire from="(170,390)" to="(170,510)"/>
-    <wire from="(210,410)" to="(230,410)"/>
-    <wire from="(210,290)" to="(210,410)"/>
-    <wire from="(70,430)" to="(230,430)"/>
-    <wire from="(70,350)" to="(70,430)"/>
-    <wire from="(70,430)" to="(70,510)"/>
-    <wire from="(110,450)" to="(230,450)"/>
-    <wire from="(110,170)" to="(110,450)"/>
-    <wire from="(110,450)" to="(110,510)"/>
-    <wire from="(150,470)" to="(230,470)"/>
-    <wire from="(150,270)" to="(150,470)"/>
-    <wire from="(150,470)" to="(150,510)"/>
-    <wire from="(210,490)" to="(230,490)"/>
-    <wire from="(210,410)" to="(210,490)"/>
-    <wire from="(210,490)" to="(210,510)"/>
-    <wire from="(170,130)" to="(230,130)"/>
-    <wire from="(260,120)" to="(260,130)"/>
-    <wire from="(260,150)" to="(260,160)"/>
-    <wire from="(260,210)" to="(280,210)"/>
-    <wire from="(260,200)" to="(260,210)"/>
-    <wire from="(260,230)" to="(280,230)"/>
-    <wire from="(260,230)" to="(260,240)"/>
-    <wire from="(260,150)" to="(280,150)"/>
+    <wire from="(130,330)" to="(130,510)"/>
+    <wire from="(70,310)" to="(230,310)"/>
+    <wire from="(70,70)" to="(70,310)"/>
+    <wire from="(170,350)" to="(230,350)"/>
+    <wire from="(170,190)" to="(170,350)"/>
+    <wire from="(170,350)" to="(170,510)"/>
+    <wire from="(210,370)" to="(230,370)"/>
+    <wire from="(210,290)" to="(210,370)"/>
+    <wire from="(70,390)" to="(230,390)"/>
+    <wire from="(70,310)" to="(70,390)"/>
+    <wire from="(70,390)" to="(70,510)"/>
+    <wire from="(110,410)" to="(230,410)"/>
+    <wire from="(110,170)" to="(110,410)"/>
+    <wire from="(110,410)" to="(110,510)"/>
+    <wire from="(150,430)" to="(230,430)"/>
+    <wire from="(150,270)" to="(150,430)"/>
+    <wire from="(150,430)" to="(150,510)"/>
+    <wire from="(210,450)" to="(230,450)"/>
+    <wire from="(210,370)" to="(210,450)"/>
+    <wire from="(210,450)" to="(210,510)"/>
     <wire from="(260,130)" to="(280,130)"/>
-    <wire from="(260,280)" to="(260,290)"/>
-    <wire from="(260,310)" to="(260,320)"/>
-    <wire from="(260,310)" to="(280,310)"/>
+    <wire from="(260,120)" to="(260,130)"/>
+    <wire from="(260,150)" to="(280,150)"/>
+    <wire from="(260,150)" to="(260,160)"/>
+    <wire from="(260,200)" to="(260,210)"/>
+    <wire from="(260,230)" to="(260,240)"/>
+    <wire from="(260,230)" to="(280,230)"/>
+    <wire from="(260,210)" to="(280,210)"/>
     <wire from="(260,290)" to="(280,290)"/>
+    <wire from="(260,280)" to="(260,290)"/>
+    <wire from="(260,310)" to="(280,310)"/>
+    <wire from="(260,310)" to="(260,320)"/>
     <wire from="(260,370)" to="(280,370)"/>
     <wire from="(260,360)" to="(260,370)"/>
     <wire from="(260,390)" to="(280,390)"/>
     <wire from="(260,390)" to="(260,400)"/>
-    <wire from="(310,170)" to="(330,170)"/>
+    <wire from="(260,440)" to="(340,440)"/>
+    <wire from="(310,380)" to="(310,400)"/>
+    <wire from="(340,420)" to="(340,440)"/>
+    <wire from="(310,400)" to="(340,400)"/>
+    <wire from="(310,170)" to="(340,170)"/>
     <wire from="(310,140)" to="(310,170)"/>
-    <wire from="(310,190)" to="(330,190)"/>
+    <wire from="(310,190)" to="(340,190)"/>
     <wire from="(310,190)" to="(310,220)"/>
-    <wire from="(310,330)" to="(330,330)"/>
-    <wire from="(310,300)" to="(310,330)"/>
-    <wire from="(310,350)" to="(330,350)"/>
-    <wire from="(310,350)" to="(310,380)"/>
-    <wire from="(260,450)" to="(280,450)"/>
-    <wire from="(260,440)" to="(260,450)"/>
-    <wire from="(260,470)" to="(280,470)"/>
-    <wire from="(260,470)" to="(260,480)"/>
-    <comp lib="1" loc="(310,380)" name="OR Gate"/>
-    <comp lib="1" loc="(260,120)" name="AND Gate"/>
-    <comp lib="1" loc="(260,400)" name="AND Gate"/>
-    <comp lib="1" loc="(170,100)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <wire from="(310,250)" to="(340,250)"/>
+    <wire from="(310,220)" to="(310,250)"/>
+    <wire from="(310,270)" to="(340,270)"/>
+    <wire from="(310,270)" to="(310,300)"/>
+    <wire from="(370,210)" to="(400,210)"/>
+    <wire from="(370,180)" to="(370,210)"/>
+    <wire from="(370,230)" to="(400,230)"/>
+    <wire from="(370,230)" to="(370,260)"/>
+    <wire from="(310,300)" to="(310,320)"/>
+    <wire from="(310,320)" to="(330,320)"/>
+    <wire from="(310,340)" to="(310,380)"/>
+    <wire from="(310,340)" to="(330,340)"/>
+    <comp lib="1" loc="(260,280)" name="AND Gate">
+      <a name="label" val="5"/>
     </comp>
-    <comp lib="1" loc="(310,140)" name="AND Gate"/>
-    <comp lib="1" loc="(310,220)" name="OR Gate"/>
-    <comp lib="1" loc="(260,360)" name="AND Gate"/>
+    <comp lib="1" loc="(260,440)" name="AND Gate">
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="7" loc="(204,600)" name="Text">
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(169,17)" name="Text"/>
+    <comp lib="7" loc="(468,604)" name="Text">
+      <a name="text" val="13"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(468,570)" name="Text">
+      <a name="text" val="20"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(370,410)" name="AND Gate">
+      <a name="label" val="14"/>
+    </comp>
+    <comp lib="7" loc="(286,586)" name="Text">
+      <a name="text" val="\"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(160,608)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(523,613)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(310,140)" name="AND Gate">
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="7" loc="(383,586)" name="Text">
+      <a name="text" val="\"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(414,612)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,200)" name="AND Gate">
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="1" loc="(370,180)" name="AND Gate">
+      <a name="label" val="15"/>
+    </comp>
+    <comp lib="7" loc="(444,615)" name="Text">
+      <a name="text" val="7"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(360,330)" name="OR Gate">
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="7" loc="(341,618)" name="Text">
+      <a name="text" val="5"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(489,585)" name="Text">
+      <a name="text" val="\"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(522,595)" name="Text">
+      <a name="text" val="17"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,160)" name="OR Gate">
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="7" loc="(258,607)" name="Text">
+      <a name="text" val="11"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(305,627)" name="Text">
+      <a name="text" val="f(x,y,w,z) = ( (x' . w') . (z + y) ) . ( (w' . z) + (x' . y') ) . ( (w . z') + (x . y') ) . ( (w' . z') + ( (x . y) ) . (w . z')"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,400)" name="AND Gate">
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="7" loc="(159,598)" name="Text">
+      <a name="text" val="10"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,120)" name="AND Gate">
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(80,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="x"/>
+    </comp>
+    <comp lib="7" loc="(366,607)" name="Text">
+      <a name="text" val="12"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(128,672)" name="Text">
+      <a name="text" val="(1-9) : Conjunções mais internas"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(202,595)" name="Text">
+      <a name="text" val="14"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(175,618)" name="Text">
+      <a name="text" val="2"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(234,650)" name="Text">
+      <a name="text" val="Quais são as portas necessárias para montar o restante do circuito?"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,240)" name="AND Gate">
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="7" loc="(198,557)" name="Text">
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(361,570)" name="Text">
+      <a name="text" val="19"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
     <comp lib="1" loc="(210,100)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(260,480)" name="AND Gate"/>
-    <comp lib="0" loc="(160,70)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="w"/>
+    <comp lib="1" loc="(260,360)" name="AND Gate">
+      <a name="label" val="7"/>
     </comp>
     <comp lib="0" loc="(120,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="y"/>
     </comp>
-    <comp lib="1" loc="(360,460)" name="AND Gate"/>
-    <comp lib="7" loc="(169,17)" name="Text"/>
+    <comp lib="7" loc="(205,609)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(160,70)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="w"/>
+    </comp>
+    <comp lib="7" loc="(169,728)" name="Text">
+      <a name="text" val="(14-17) : Conjunções intermediárias superiores"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(370,260)" name="OR Gate">
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="1" loc="(430,220)" name="AND Gate">
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="7" loc="(166,691)" name="Text">
+      <a name="text" val="(10-13) : Conjunções intermediárias inferiores"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(494,615)" name="Text">
+      <a name="text" val="8"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(230,586)" name="Text">
+      <a name="text" val="/"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(170,100)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(310,300)" name="OR Gate">
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="1" loc="(310,380)" name="OR Gate">
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="7" loc="(448,584)" name="Text">
+      <a name="text" val="/"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
     <comp lib="1" loc="(130,100)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(360,340)" name="AND Gate"/>
-    <comp lib="1" loc="(260,440)" name="AND Gate"/>
-    <comp lib="1" loc="(260,160)" name="OR Gate"/>
-    <comp lib="1" loc="(310,300)" name="OR Gate"/>
-    <comp lib="1" loc="(360,180)" name="AND Gate"/>
+    <comp lib="7" loc="(311,612)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(90,100)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="7" loc="(412,595)" name="Text">
+      <a name="text" val="16"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
     <comp lib="0" loc="(200,70)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="z"/>
     </comp>
-    <comp lib="1" loc="(260,200)" name="AND Gate"/>
-    <comp lib="1" loc="(260,240)" name="AND Gate"/>
-    <comp lib="1" loc="(260,320)" name="AND Gate"/>
-    <comp lib="1" loc="(90,100)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(310,220)" name="OR Gate">
+      <a name="label" val="11"/>
     </comp>
-    <comp lib="1" loc="(350,550)" name="AND Gate"/>
-    <comp lib="0" loc="(80,70)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="x"/>
+    <comp lib="7" loc="(282,615)" name="Text">
+      <a name="text" val="4"/>
+      <a name="font" val="Dialog plain 12"/>
     </comp>
-    <comp lib="1" loc="(260,280)" name="AND Gate"/>
+    <comp lib="7" loc="(170,709)" name="Text">
+      <a name="text" val="(14-17) : Conjunções intermediárias superiores"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(260,320)" name="AND Gate">
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="7" loc="(237,617)" name="Text">
+      <a name="text" val="3"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(383,617)" name="Text">
+      <a name="text" val="6"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(312,596)" name="Text">
+      <a name="text" val="15"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(540,615)" name="Text">
+      <a name="text" val="9"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(342,585)" name="Text">
+      <a name="text" val="/"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(131,615)" name="Text">
+      <a name="text" val="1"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(255,569)" name="Text">
+      <a name="text" val="18"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
   </circuit>
 </project>
