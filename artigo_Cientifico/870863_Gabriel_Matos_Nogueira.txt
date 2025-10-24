@@ -1,0 +1,123 @@
+870863_Gabriel_Matos_Nogueira
+
+1. 	[ X ] Leitura do Texto
+	[ X ] Escolha de outro artigo semelhante
+OBS: 	Vi que você publicou um artigo chamado "Proposta de um Sistema Embarcado para Aquisição de Sinais e Controle Baseado em FPGA"
+	no quarto volume da edição de 2007 na REIC da SBC, entretanto, não consegui acessar esse repositório de artigos, portanto, pedi
+	ajuda ao Gemini que aparentemente conseguiu acessar o artigo e transcrevê-lo para o docs.
+	
+2. 	[ X ] Consulta Bib PUC-Minas
+	[ X ] Consulta template LaTeX
+
+3.	
+________________________________________________________________________________________________________________________________________________________________________________________________
+Sigla	| 				Definição							| 				Caracterização						|
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+ASIC	| Componente eletrônico que executa funções específicas dentro de um dispositivo ou       	| Diferencia-se por meio de um processo de fabricação especial onde os componentes	|
+        | sistema.                                                                                	| desempenham papéis mais específicos com maior eficiência; em contraponto, aumenta o	|
+      	|                                                                                         	| custo de implementação e o tempo de desenvolvimento.					|
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		|
+ASSP	| Circuito integrado para uma aplicação específica, vendido como um produto padrão no     	| Componente eletrônico ainda com certo nível de especificidade, mas tratando casos	|
+        | mercado.                                                                                	| um pouco menos genéricos. É vendido amplamente no mercado sem o preço de uma		|
+        |                                                                                         	| solução específica e altamente customizada para somente um caso 'x'.			|
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+SPLD    | Dispositivo de lógica programável simples, sendo a primeira geração de chips lógicos    	| Componente eletrônico mais simples e antigo da família dos programáveis. Foi		|
+        | configuráveis pelo usuário.                                                             	| projetado para substituir um punhado de portas lógicas discretas ("glue logic")	|
+        |                                                                                         	| de forma barata e eficiente, sendo ideal para tarefas lógicas de baixa complexidade.	|
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+CPLD    | Dispositivo formado por múltiplos blocos lógicos (macrocélulas) interconectados por     	| Uma evolução do SPLD, mantém características como a não-volatilidade (mantém a	|
+        | uma matriz de roteamento central.                                                       	| programação sem energia) e tempos de resposta previsíveis. Atua como o "gerente	|
+        |                                                                                         	| de tráfego" em um sistema, sendo ideal para lógicas de controle e interface		|
+        |                                                                                         	| entre componentes.									|
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+SOC     | Um circuito integrado que agrega um processador, memória e periféricos em um único      	| Representa o nível máximo de integração, combinando todos os elementos de um		|
+        | chip.                                                                                   	| computador (processador, memória, periféricos) em um único chip. É a base de		|
+        |                                                                                         	| dispositivos modernos como smartphones, otimizando espaço, custo e consumo de energia.|
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+FPGA    | Um circuito integrado com uma matriz de blocos lógicos configuráveis (CLBs) e uma       	| Oferece o máximo de flexibilidade e capacidade entre os dispositivos programáveis.	|
+        | malha de conectada programável.                                                         	| Sua arquitetura de malha permite a criação de circuitos digitais altamente complexos,	|
+        |                                                                                         	| ideal para prototipagem de ASICs, aceleração de hardware e produtos que exigem	|
+        |                                                                                         	| atualizações futuras.									|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FONTES:
+ASIC: OMRON TECHNICS Vol. 56. Disponível em: https://www.omron.com/global/en/technology/omrontechnics/vol56/011.html
+
+ASSP: EUROPEAN COOPERATION FOR SPACE STANDARDIZATION. ECSS-Q-HB-60-02A – Techniques for radiation effects mitigation in ASICs and FPGAs Handbook. 1 de Setembro de 2016. Disponível em: https://ecss.nl/hbstms/ecss-q-hb-60-02a-techniques-for-radiation-effects-mitigation-in-asics-and-fpgas-handbook-1-september-2016-published/
+
+
+4.
+________________________________________________________________________________________________________________________________________________________
+SIGLA			|	DEFINIÇÃO					|	DIFERENCIAL							|
+--------------------------------------------------------------------------------------------------------------------------------------------------------|
+PROM (Programmable	|	Memória programável apenas para leitura.	|	A memória é vendida em branco ou pré-configurada em fábrica,	|
+Read-Only Memory)	|							|	sendo impossível reconfigurá-la depois de gravar os dados,	|
+			|							|	tendo baixíssima flexibilidade.					|
+--------------------------------------------------------------------------------------------------------------------------------------------------------|
+PLA  (Programmable      |      	Dispositivo de lógica programável que possui    |      	Oferece maior flexibilidade na implementação de funções		|
+Logic Array)            |      	matrizes programáveis tanto de portas AND quanto|      	lógicas, pois tanto as combinações AND quanto OR podem ser	|
+                        |      	de portas OR.                                   |      	configuradas pelo usuário, permitindo personalizar completamente|
+                        |                                                       |    	as funções booleanas.						|
+--------------------------------------------------------------------------------------------------------------------------------------------------------|
+PAL  (Programmable      |      	Dispositivo de lógica programável com matriz    |      	Possui programação mais simples e rápida que a PLA, com melhor	|
+Array Logic)            |      	AND programável e matriz OR fixa.               |      	desempenho, mas menor flexibilidade, já que apenas a matriz	|
+                        |                                                       |    	AND pode ser configurada.					|
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+GOOLESBY, C. W. Software for PROM Programing. NASA Tech Briefs, v. 8, n. 3, 1985. 
+Disponível em: <https://ntrs.nasa.gov/citations/19840000013>. 
+Acesso em: 13 out. 2025.
+
+NASA. PROGRAMMABLE READ ONLY MEMORY (PROM) Guidelines. 
+Jet Propulsion Laboratory / NEPP. 
+Disponível em: <https://nepp.nasa.gov/docuploads/5BEC0F90-8406-4D1A-9AD9FCC6FE25F87D/PROMGuidelines.PDF>. 
+Acesso em: 13 out. 2025.
+
+OPARA, Adam; KANIA, Dariusz. Decomposition-based logic synthesis for PAL-based CPLDs. 
+International Journal of Applied Mathematics and Computer Science, v. 20, n. 2, p. 367-384, 2010. 
+Disponível em: <http://eudml.org/doc/207993>. 
+Acesso em: 13 out. 2025.
+
+KANIA, D.; et al. Logic Decomposition for CPLD Synthesis. 
+ScienceDirect. 
+Disponível em: <https://www.sciencedirect.com/science/article/pii/S1474667017355854>. 
+Acesso em: 13 out. 2025
+
+DAMAJ, I. Programmable Logic Arrays. 
+arXiv, 2019. 
+Disponível em: <https://arxiv.org/pdf/1905.02074>. 
+Acesso em: 13 out. 2025.
+
+
+5.
+________________________________________________________________________________________________________________________________________________
+SIGLA			   |		DEFINIÇÃO				     |		DIFERENCIAL					|
+------------------------------------------------------------------------------------------------------------------------------------------------|
+CPLD (Complex              |   	Dispositivo lógico programável composto por blocos   |  Possui arquitetura previsível, baixa densidade lógica	|
+Programmable Logic Device) |   	de lógica simples interconectados de forma fixa.     |	e inicialização instantânea, sendo ideal para tarefas	|
+                           |   	Armazena sua configuração em memória não volátil.    | 	determinísticas e controle de hardware estável.		|
+------------------------------------------------------------------------------------------------------------------------------------------------|
+FPGA (Field                |   	Dispositivo lógico programável de alta complexidade, | Apresenta altíssima flexibilidade e capacidade lógica,	|
+Programmable Gate Array)   |   	formado por uma matriz de blocos lógicos e           | permitindo reconfiguração ilimitada via memória volátil	|
+                           |   	interconexões programáveis.                          | (geralmente SRAM), mas requer configuração a cada	|
+                           |                                                         |	inicialização e consome mais energia.			|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+HASSOUN, Soha; EGAN, James. Digital Design Using Field Programmable Gate Arrays. 2. ed. New York: McGraw-Hill, 2008.
+
+BROWN, Stephen D.; VRANESIC, Zvonko G. Fundamentals of Digital Logic with VHDL Design. 3. ed. New York: McGraw-Hill, 2009.
+
+6.
+FPGAs possuem uma arquitetura distribuída com blocos lógicos configuráveis, oferecendo maior flexibilidade para projetos complexos
+o que se torna um grande diferencial em comparação aos CPLDs, que geralmente possuem arquitetura mais centralizada com macromoléculas
+sendo mais adequado para aplicações simples e com requisitos de tempo determinado. Outro fator importante é a eficiência energética
+de ambos, onde CPLDs se destaca por consumir menos energia e tem tempo de inicialização mais rápido devido a sua memória não volátil
+integrada, o que os torna referência em velocidade de execução.
+
+
+AGUIAR, João Marcos de; SILVA, Marcos Vinicius Leal da; MÉLO, Fco. Édson N. de. Sistema didático de expansão de E/S para Arduino, via SPI e com CPLD. Revista SICTI-Sul, n. 117, Florianópolis: Instituto Federal de Santa Catarina, [s.d.]. PDF.
+
+AUTO-DESK. What is CPLD (Complex Programmable Logic Device)? Autodesk Blog. Disponível em: https://www.autodesk.com/products/fusion-360/blog/cpld-overview/
+. Acesso em: 15 out. 2025.
+
+TUTORIALSPOINT. Difference Between FPGA and CPLD. TutorialsPoint, 2023-04-03. Disponível em: https://www.tutorialspoint.com/difference-between-cpld-and-fpga
+. Acesso em: 15 out. 2025.
+

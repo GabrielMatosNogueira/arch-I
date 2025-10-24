@@ -1,0 +1,23 @@
+Posicao do termos na tabela
+ab \ cd	
+	00	01	11	10
+00	0	1	3	2
+01	4	5	7	6
+11	C	D	F	E
+10	8	9	B	A
+
+Maxtermos
+ab \ cd
+	00	01	11	10
+00			1	1
+01		1	1	
+11		1	
+10		1	1	1
+
+Mintermos
+ab \ cd
+	00	01	11	10
+00	0	0		
+01	0			0
+11	0		0	0
+10	0
